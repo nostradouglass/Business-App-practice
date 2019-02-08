@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC3F97B6220DE9E800826C64 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F97B5220DE9E800826C64 /* EmailViewController.swift */; };
+		AC3F97B9220E035500826C64 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3F97B8220E035500826C64 /* MessageUI.framework */; };
+		AC3F97BC220E045F00826C64 /* SocialTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F97BB220E045F00826C64 /* SocialTableViewController.swift */; };
+		AC3F97BE220E047200826C64 /* SocialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F97BD220E047200826C64 /* SocialTableViewCell.swift */; };
+		AC3F97C0220E048600826C64 /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F97BF220E048600826C64 /* SocialViewController.swift */; };
+		AC3F97C2220E071100826C64 /* socialList.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC3F97C1220E071100826C64 /* socialList.plist */; };
 		AC9D6731220CB6AC00F2F93D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D6730220CB6AC00F2F93D /* AppDelegate.swift */; };
 		AC9D6733220CB6AC00F2F93D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D6732220CB6AC00F2F93D /* ViewController.swift */; };
 		AC9D6736220CB6AC00F2F93D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9D6734220CB6AC00F2F93D /* Main.storyboard */; };
 		AC9D6738220CB6AE00F2F93D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9D6737220CB6AE00F2F93D /* Assets.xcassets */; };
 		AC9D673B220CB6AE00F2F93D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9D6739220CB6AE00F2F93D /* LaunchScreen.storyboard */; };
+		AC9D6744220CBA7300F2F93D /* ServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D6743220CBA7300F2F93D /* ServicesTableViewController.swift */; };
+		AC9D6746220CBA8600F2F93D /* ServicesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D6745220CBA8600F2F93D /* ServicesTableViewCell.swift */; };
+		AC9D6748220CBB1500F2F93D /* serviceList.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC9D6747220CBB1500F2F93D /* serviceList.plist */; };
+		AC9D674A220CBBC200F2F93D /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D6749220CBBC200F2F93D /* ServicesViewController.swift */; };
+		AC9D674D220CD9C800F2F93D /* PortfolioCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D674C220CD9C800F2F93D /* PortfolioCollectionViewCell.swift */; };
+		AC9D674F220CDA1A00F2F93D /* PortfolioUICollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D674E220CDA1A00F2F93D /* PortfolioUICollectionViewController.swift */; };
+		AC9D6752220CDF0D00F2F93D /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D6751220CDF0D00F2F93D /* ContactUsViewController.swift */; };
+		AC9D6755220CDF3000F2F93D /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D6754220CDF3000F2F93D /* AboutUsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC3F97B5220DE9E800826C64 /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		AC3F97B8220E035500826C64 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		AC3F97BB220E045F00826C64 /* SocialTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialTableViewController.swift; sourceTree = "<group>"; };
+		AC3F97BD220E047200826C64 /* SocialTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialTableViewCell.swift; sourceTree = "<group>"; };
+		AC3F97BF220E048600826C64 /* SocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
+		AC3F97C1220E071100826C64 /* socialList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = socialList.plist; sourceTree = "<group>"; };
 		AC9D672D220CB6AC00F2F93D /* Business App practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Business App practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9D6730220CB6AC00F2F93D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC9D6732220CB6AC00F2F93D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +42,14 @@
 		AC9D6737220CB6AE00F2F93D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC9D673A220CB6AE00F2F93D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC9D673C220CB6AE00F2F93D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9D6743220CBA7300F2F93D /* ServicesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTableViewController.swift; sourceTree = "<group>"; };
+		AC9D6745220CBA8600F2F93D /* ServicesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTableViewCell.swift; sourceTree = "<group>"; };
+		AC9D6747220CBB1500F2F93D /* serviceList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = serviceList.plist; sourceTree = "<group>"; };
+		AC9D6749220CBBC200F2F93D /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
+		AC9D674C220CD9C800F2F93D /* PortfolioCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioCollectionViewCell.swift; sourceTree = "<group>"; };
+		AC9D674E220CDA1A00F2F93D /* PortfolioUICollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioUICollectionViewController.swift; sourceTree = "<group>"; };
+		AC9D6751220CDF0D00F2F93D /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		AC9D6754220CDF3000F2F93D /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +57,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC3F97B9220E035500826C64 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC3F97B7220E035500826C64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC3F97B8220E035500826C64 /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC3F97BA220E044500826C64 /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				AC3F97BB220E045F00826C64 /* SocialTableViewController.swift */,
+				AC3F97BD220E047200826C64 /* SocialTableViewCell.swift */,
+				AC3F97BF220E048600826C64 /* SocialViewController.swift */,
+				AC3F97C1220E071100826C64 /* socialList.plist */,
+			);
+			path = Social;
+			sourceTree = "<group>";
+		};
 		AC9D6724220CB6AC00F2F93D = {
 			isa = PBXGroup;
 			children = (
 				AC9D672F220CB6AC00F2F93D /* Business App practice */,
 				AC9D672E220CB6AC00F2F93D /* Products */,
+				AC3F97B7220E035500826C64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +103,11 @@
 		AC9D672F220CB6AC00F2F93D /* Business App practice */ = {
 			isa = PBXGroup;
 			children = (
+				AC3F97BA220E044500826C64 /* Social */,
+				AC9D6753220CDF2100F2F93D /* About Us */,
+				AC9D6750220CDEFB00F2F93D /* ContactUs */,
+				AC9D674B220CD9AB00F2F93D /* Portfolio */,
+				AC9D6742220CBA5800F2F93D /* Services */,
 				AC9D6730220CB6AC00F2F93D /* AppDelegate.swift */,
 				AC9D6732220CB6AC00F2F93D /* ViewController.swift */,
 				AC9D6734220CB6AC00F2F93D /* Main.storyboard */,
@@ -62,6 +116,43 @@
 				AC9D673C220CB6AE00F2F93D /* Info.plist */,
 			);
 			path = "Business App practice";
+			sourceTree = "<group>";
+		};
+		AC9D6742220CBA5800F2F93D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AC9D6743220CBA7300F2F93D /* ServicesTableViewController.swift */,
+				AC9D6745220CBA8600F2F93D /* ServicesTableViewCell.swift */,
+				AC9D6747220CBB1500F2F93D /* serviceList.plist */,
+				AC9D6749220CBBC200F2F93D /* ServicesViewController.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AC9D674B220CD9AB00F2F93D /* Portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				AC9D674C220CD9C800F2F93D /* PortfolioCollectionViewCell.swift */,
+				AC9D674E220CDA1A00F2F93D /* PortfolioUICollectionViewController.swift */,
+			);
+			path = Portfolio;
+			sourceTree = "<group>";
+		};
+		AC9D6750220CDEFB00F2F93D /* ContactUs */ = {
+			isa = PBXGroup;
+			children = (
+				AC9D6751220CDF0D00F2F93D /* ContactUsViewController.swift */,
+				AC3F97B5220DE9E800826C64 /* EmailViewController.swift */,
+			);
+			path = ContactUs;
+			sourceTree = "<group>";
+		};
+		AC9D6753220CDF2100F2F93D /* About Us */ = {
+			isa = PBXGroup;
+			children = (
+				AC9D6754220CDF3000F2F93D /* AboutUsViewController.swift */,
+			);
+			path = "About Us";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +213,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC9D6748220CBB1500F2F93D /* serviceList.plist in Resources */,
 				AC9D673B220CB6AE00F2F93D /* LaunchScreen.storyboard in Resources */,
 				AC9D6738220CB6AE00F2F93D /* Assets.xcassets in Resources */,
+				AC3F97C2220E071100826C64 /* socialList.plist in Resources */,
 				AC9D6736220CB6AC00F2F93D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +229,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC9D6733220CB6AC00F2F93D /* ViewController.swift in Sources */,
+				AC9D6755220CDF3000F2F93D /* AboutUsViewController.swift in Sources */,
+				AC3F97C0220E048600826C64 /* SocialViewController.swift in Sources */,
+				AC9D6746220CBA8600F2F93D /* ServicesTableViewCell.swift in Sources */,
+				AC9D6744220CBA7300F2F93D /* ServicesTableViewController.swift in Sources */,
+				AC9D6752220CDF0D00F2F93D /* ContactUsViewController.swift in Sources */,
+				AC9D674A220CBBC200F2F93D /* ServicesViewController.swift in Sources */,
+				AC9D674F220CDA1A00F2F93D /* PortfolioUICollectionViewController.swift in Sources */,
 				AC9D6731220CB6AC00F2F93D /* AppDelegate.swift in Sources */,
+				AC9D674D220CD9C800F2F93D /* PortfolioCollectionViewCell.swift in Sources */,
+				AC3F97BC220E045F00826C64 /* SocialTableViewController.swift in Sources */,
+				AC3F97BE220E047200826C64 /* SocialTableViewCell.swift in Sources */,
+				AC3F97B6220DE9E800826C64 /* EmailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
